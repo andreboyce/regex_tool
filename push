@@ -18,6 +18,8 @@ else
    :
 fi
 
+cp regex_tool_dev.html regex_tool.html
+
 git add -A
 git commit -m "$MESSAGE"
 git push -u origin main
