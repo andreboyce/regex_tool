@@ -20,7 +20,7 @@ fi
 
 # cp regex_tool_dev.html regex_tool.html
 cd dev;
-./dev/windows_launch;
+./windows_launch;
 cd ..;
 
 git add -A
