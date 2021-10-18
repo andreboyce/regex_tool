@@ -1,0 +1,18 @@
+h1{ text-align: center; }
+.profile_container{ display: flex; margin: 0px auto; border: 0px solid black; width: 90%; clear: both; }
+.profile_name{ width: 32%; text-align: center; padding: 5px 5px 5px 5px; }
+.input_profile_name{ padding: 5px 5px 5px 5px; }
+.load_profile{ width: 50%; text-align: center; padding: 5px 5px 5px 5px; }
+.save_profile{ width: 50%; text-align: center; padding: 5px 5px 5px 5px; }
+.input_pattern{ padding: 5px 5px 5px 5px; }
+.input_replace{ padding: 5px 5px 5px 5px; }
+.regex_pair{ display: flex; margin: 0px auto; border: 0px solid black; width: 90%; clear: both; }
+.pattern{ width: 95%; text-align: center; padding: 5px 5px 5px 5px; }
+.replace{ width: 95%; text-align: center; padding: 5px 5px 5px 5px; }
+.input_pattern{ padding: 5px 5px 5px 5px; }
+.input_replace{ padding: 5px 5px 5px 5px; }
+.controls{ width: 100%; text-align: center; }
+.tool_container{ display: flex; border: 0px solid black; }
+.panel{ text-align: center; width: 50%; }
+.textarea_tool{ width: 95%; height: 150px; }
+.textarea_profile{ display: none; }
