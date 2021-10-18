@@ -19,7 +19,9 @@ else
 fi
 
 # cp regex_tool_dev.html regex_tool.html
+cd dev;
 ./dev/windows_launch;
+cd ..;
 
 git add -A
 git commit -m "$MESSAGE"
