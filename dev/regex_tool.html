@@ -3,22 +3,9 @@
   <head>
     <title>Regex Tool</title>
     <meta content='text/html;charset=utf-8' http-equiv='Content-Type' />
-
     <link rel="stylesheet" href="regex_tool.css">
     <script type="text/javascript" src="regex_tool.js"></script>
-
-    <!--
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
     <script>
-      $(document).ready(function() {
-      });
-    </script>
-    -->
-
-    <script>
-      // defaultProfileName = 'profile.default';
-
       window.onload = function() {
         init();
       }
@@ -42,7 +29,7 @@
       <div class='save_profile'>
         profile name: <input type='text' class='input_profile_name' id='input_profile_name' value='' />
         <input type='button' class='input_save_profile' value='Save Profile To Local Storage' onclick='saveProfileToLocalStorage();' />
-        <textarea rows='0' cols='0' id='textarea_profile' class='textarea_profile'></textarea>
+        <textarea rows='1' cols='1' id='textarea_profile' class='textarea_profile'></textarea>
         <input type='button' class='input_save_profile' value='Save Profile To File' onclick='saveProfileToFile();' />
       </div>
     </div>

@@ -1,0 +1,6 @@
+./htmlark.exe regex_tool.html -o regex_tool_inline.html
+cp regex_tool_dev.html regex_tool.html
+cp regex_tool.html ../release/regex_tool.html
+cp regex_tool.css ../release/regex_tool.css
+cp regex_tool.js ../release/regex_tool.js
+cp regex_tool_inline.html ../release/regex_tool_inline.html
