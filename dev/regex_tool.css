@@ -9,8 +9,8 @@ h1{ text-align: center; }
 .regex_pair{ display: flex; margin: 0px auto; border: 0px solid black; width: 90%; clear: both; }
 .pattern{ width: 95%; text-align: center; padding: 5px 5px 5px 5px; }
 .replace{ width: 95%; text-align: center; padding: 5px 5px 5px 5px; }
-.input_pattern{ padding: 5px 5px 5px 5px; }
-.input_replace{ padding: 5px 5px 5px 5px; }
+.input_pattern{ padding: 5px 5px 5px 5px; width: 100%; }
+.input_replace{ padding: 5px 5px 5px 5px; width: 100%; }
 .controls{ width: 100%; text-align: center; }
 .tool_container{ display: flex; border: 0px solid black; }
 .panel{ text-align: center; width: 50%; }
